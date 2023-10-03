@@ -1,0 +1,160 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.header{
+  position: fixed;
+   z-index: 999;
+    width: 100%;  
+    background-color:white; 
+     backdrop-filter: blur(10px); 
+     transition: 0.5s;
+     /* top: -100px; */
+
+}
+.header3{
+  /* position: fixed;
+    width: 100%;
+    z-index: 999; */
+
+    background-color:rgba(0,0,0,0.7); 
+     backdrop-filter: blur(10px); 
+     transition: 0.5s;
+     /* top: -100px; */
+     top: 0;
+
+}
+.header2{
+  position: fixed;
+   z-index: 10;
+    width: 100%;  
+}
+#video{
+  width:  100%;
+  height: 100%;
+  /* position: relative; */
+
+  /* object-fit:cover;
+  z-index: -1;
+  filter:opacity(100%);
+  opacity: 0.9; */
+
+  /* transform: translateX(10%) translateY(40%) */
+  opacity: '';
+  filter: brightness(70%);
+
+} 
+.video-container {
+  position: relative;
+}
+
+.overlay-content {
+  position: absolute;
+  top: 50vh;
+  left: 0;
+ 
+  
+  width: 100%;
+  /* height: 50%; */
+   background-color: rgba(0, 0, 0, 0.5); 
+  color:black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.content{
+  /* text-align: center;
+  position: absolute;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  top: 40vh; */
+  
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  position: absolute;
+  top: 20vh;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.custom-datepicker {
+  border: 1px solid rgb(229, 223, 223);
+  padding: 5px;
+}
+
+/* src/components/DotLine.css */
+.dot-line {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.dot-text {
+  margin: 0 10px;
+  font-size: 18px;
+  color: #333; /* Customize the text color */
+}
+
+.dot-line::before {
+  content: '';
+  flex-grow: 1;
+  height: 1px;
+  background-color: #333; /* Customize the line color */
+}
+/* src/App.css */
+
+a {
+  color: white;
+  padding: 0 10px;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+a.active {
+  color: yellow; /* Change this to the desired active link color */
+}
+
+.dot-line::after {
+  content: '';
+  width: 10px; /* Adjust the dot size */
+  height: 10px; /* Adjust the dot size */
+  background-color: #333; /* Customize the dot color */
+  border-radius: 50%;
+}
