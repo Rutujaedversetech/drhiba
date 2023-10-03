@@ -1,0 +1,5 @@
+_id,name,email,password,date,is_superAdmin,role,createdAt,updatedAt
+64d4d576d34fa2fee0fe1c4b,Baba,rutujalomate@edversetech.com,123,2023-08-10,true,doctor,Thu Aug 10 2023 17:47:58 GMT+0530 (India Standard Time),Thu Aug 10 2023 17:47:58 GMT+0530 (India Standard Time)
+64d4d58bd34fa2fee0fe1c50,tina,lomaterutuja1206@gmail.com,678,2023-08-10,false,staff,Thu Aug 10 2023 17:48:19 GMT+0530 (India Standard Time),Thu Aug 10 2023 17:48:19 GMT+0530 (India Standard Time)
+64d4d5add34fa2fee0fe1c55,rutuja,lomaterutuja1506@gmail.com,rushi,2023-08-10,false,patient,Thu Aug 10 2023 17:48:53 GMT+0530 (India Standard Time),Thu Aug 10 2023 17:48:53 GMT+0530 (India Standard Time)
+64e332330a1827213802dbce,asdf,lomate@123,123,2023-08-21,true,doctor,Mon Aug 21 2023 15:15:23 GMT+0530 (India Standard Time),Mon Aug 21 2023 15:15:23 GMT+0530 (India Standard Time)
